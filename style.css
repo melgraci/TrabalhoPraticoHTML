@@ -1,0 +1,249 @@
+/* 
+   Seletor Universal
+ */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* Corpo */
+
+body{
+
+   
+    background-size:cover;
+    background-attachment:fixed;
+
+    background-color:#fff7fb;
+
+    color:#5b4b63;
+
+}
+
+/* Barra */
+
+nav{
+
+    background:#ffb6c1;
+    padding:20px;
+    text-align:center;
+
+}
+
+nav a{
+
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    font-weight:bold;
+    transition:0.3s;
+
+}
+
+/* Link normal */
+
+nav a:link{
+
+    color:white;
+
+}
+
+/* Visitado */
+
+nav a:visited{
+
+    color:#ffeef6;
+
+}
+
+/* Hover */
+
+nav a:hover{
+
+    color:#ff1493;
+
+}
+
+/* Botão */
+
+.botao{
+
+    background:#ff69b4;
+    color:white;
+    padding:10px 20px;
+    border-radius:20px;
+    text-decoration:none;
+
+}
+
+.botao:hover{
+
+    background:#ff1493;
+
+}
+
+/* ID */
+
+#titulo{
+
+    text-align:center;
+    color:#d63384;
+    margin:30px;
+
+}
+
+form{
+
+    width:500px;
+    margin:30px auto;
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:20px;
+
+    box-shadow:0px 0px 15px rgba(0,0,0,.2);
+
+}
+
+/* Classe */
+
+.input{
+
+    margin-bottom:20px;
+
+}
+
+label{
+
+    display:block;
+    margin-bottom:5px;
+    font-weight:bold;
+
+}
+
+input{
+
+    width:100%;
+    padding:12px;
+
+    border:2px solid #ffc0cb;
+
+    border-radius:10px;
+
+}
+
+button{
+
+    background:#ff69b4;
+
+    color:white;
+
+    border:none;
+
+    padding:12px 20px;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+}
+
+button:hover{
+
+    background:#ff1493;
+
+}
+
+/* tabela */
+
+table{
+
+    width:90%;
+    margin:auto;
+
+    border-collapse:collapse;
+
+    background:white;
+
+}
+
+th{
+
+    background:#ffb6c1;
+
+    color:white;
+
+    padding:12px;
+
+}
+
+td{
+
+    padding:12px;
+
+    text-align:center;
+
+    border:1px solid #ffd6e8;
+
+}
+
+tr:nth-child(even){
+
+    background:#fff2f8;
+
+}
+
+/* imagens */
+
+img{
+
+    max-width:100%;
+    border-radius:20px;
+
+}
+
+
+
+
+
+/* footer */
+
+footer{
+
+    background:#ffb6c1;
+
+    color:white;
+
+    text-align:center;
+
+    padding:15px;
+
+    margin-top:40px;
+
+}
+
+.img{
+    text-align:center;
+    margin:40px 0;
+}
+
+.img img{
+    width:500px;
+    max-width:90%;
+    border-radius:20px;
+    box-shadow:0 6px 15px rgba(0,0,0,0.2);
+}
+
+.historia-img{
+    display:block;
+    width:350px;
+    max-width:90%;
+    margin:30px auto;
+    border-radius:20px;
+    box-shadow:0 6px 15px rgba(0,0,0,0.2);
+}
